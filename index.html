@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="media.css">
+    <script src="https://kit.fontawesome.com/1d3719c978.js" crossorigin="anonymous"></script>
+    <title>Flexbox & Grid</title>
+</head>
+<body>
+    <div class="main-container">
+        <header class="header-container">
+            <div class="menu-bar">
+                <i class="menu-bar-icon fa-solid fa-bars"></i>
+            </div>
+            <a href="#">
+                <img src="img/logo.png" alt="logo" class="main-logo">
+            </a>
+            <nav class="header-nav">
+                <a class="header-link" href="#">blog</a>
+                <a class="header-link" href="#">shop</a>
+                <a class="header-link" href="#">portfolio</a>
+                <a class="header-link" href="#">about</a>
+                <a class="header-link" href="#">contact</a>
+            </nav>
+            <div class="header-social-media">
+                <i class="header-social-icon fa-brands fa-facebook"></i>
+                <i class="header-social-icon fa-brands fa-pinterest"></i>
+                <i class="header-social-icon fa-brands fa-twitter"></i>
+                <i class="header-social-icon fa-brands fa-instagram"></i>
+            </div>
+        </header>
+
+        <section class="banner">
+            <div class="banner-img-container">
+                <img src="img/banner.jpg" alt="banner" class="banner-img">
+            </div>
+            <div class="banner-content">
+                <h1 class="banner-content-header">curating the best of the ordinary & everyday</h1>
+                <div class="banner-first-container">
+                    <div class="banner-content-img-container">
+                        <img class="banner-first-img" src="img/first-image.jpg" alt="first-image">
+                        <a href="#" class="banner-bottom-text">The Latest</a>
+                    </div>
+                </div>
+                <div class="banner-second-container">
+                    <div class="banner-content-img-container">
+                        <img class="banner-second-img" src="img/second-image.png" alt="second-image">
+                        <a href="#" class="banner-bottom-text">Instagram</a>
+                    </div>
+                </div>
+            </div>
+            
+        </section>
+
+        <section class="subscribe">
+            <h2 class="subscribe-header">get on the list</h2>
+            <form class="subscribe-form">
+                <input novalidate type="email" class="subscribe-input subscribe-mail" placeholder="Email address">
+                <input type="button" value="subscribe" class="subscribe-input subscribe-btn">
+            </form>
+        </section>
+
+        <section class="intro">
+            <h2 class="intro-header">we are passionate about simplicity</h2>
+            <p class="intro-text">Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                Totam ex illum mollitia fuga aliquid veniam architecto, repudiandae dolores commodi iste nisi sunt rem dignissimos eligendi, dolore consequatur expedita? Fugit, corrupti?</p>
+        </section>
+
+        <section class="blog">
+            <div class="blog-item">
+                <div class="blog-img-container">
+                    <img src="img/goods.jpg" alt="" class="blog-img">
+                    <div class="blog-img-desc-container">
+                        <div class="blog-img-desc">
+                            <hr class="underline">
+                            get the goods
+                            <hr class="underline">
+                        </div>
+                    </div>
+                </div>
+                <div class="blog-description-container">
+                    Lorem, ipsum dolor sit amet consectetur adipisicing elit.
+                    Ullam architecto debitis similique pariatur atque error placeat.
+                    Fugit, architecto. Deserunt, voluptatum ab eaque iure quo sapiente autem rerum neque odit necessitatibus!
+                </div>
+            </div>
+
+            <div class="blog-item">
+                <div class="blog-img-container">
+                    <img src="img/blog.jpg" alt="" class="blog-img">
+                    <div class="blog-img-desc-container">
+                        <div class="blog-img-desc">
+                            <hr class="underline">
+                            read the blog
+                            <hr class="underline">
+                        </div>
+                    </div>
+                </div>
+                <div class="blog-description-container">
+                    Lorem, ipsum dolor sit amet consectetur adipisicing elit.
+                    Ullam architecto debitis similique pariatur atque error placeat.
+                    Fugit, architecto. Deserunt, voluptatum ab eaque iure quo sapiente autem rerum neque odit necessitatibus!
+                </div>
+            </div>
+
+            <div class="blog-item">
+                <div class="blog-img-container">
+                    <img src="img/touch.jpg" alt="" class="blog-img">
+                    <div class="blog-img-desc-container">
+                        <div class="blog-img-desc">
+                            <hr class="underline">
+                            get in touch
+                            <hr class="underline">
+                        </div>
+                    </div>
+                </div>
+                <div class="blog-description-container">
+                    Lorem, ipsum dolor sit amet consectetur adipisicing elit.
+                    Ullam architecto debitis similique pariatur atque error placeat.
+                    Fugit, architecto. Deserunt, voluptatum ab eaque iure quo sapiente autem rerum neque odit necessitatibus!
+                </div>
+            </div>
+        </section>
+
+        <section class="instagram">
+            <div class="instagram-item"><img src="img/touch.jpg" alt="first-image-insta" class="instagram-item-img"></div>
+            <div class="instagram-item"><img src="img/blog.jpg" alt="second-image-insta" class="instagram-item-img"></div>
+            <div class="instagram-item"><img src="img/goods.jpg" alt="third-image-insta" class="instagram-item-img"></div>
+            <div class="instagram-item-description">
+                <hr class="underline">
+                Instagram with us
+                <hr class="underline">
+            </div>
+        </section>
+
+        <footer class="footer-container">
+            <img src="img/logo.png" alt="logo" class="footer-logo">
+            <p class="footer-copy">Flexbox | Grid</p>
+        </footer>
+    </div>
+</body>
+</html>
